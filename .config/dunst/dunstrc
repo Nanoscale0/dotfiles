@@ -1,0 +1,32 @@
+# Lighthaus Color theme for Dunst
+# GIT: https://github.com/lighthaus-theme/dunst
+# Author: Adhiraj Sirohi (https://github.com/brutuski)
+#         Vasundhara Sharma (https://github.com/vasundhasauras)
+
+# Copyright © 2020-Present Lighthaus Theme
+# Copyright © 2020-Present Adhiraj Sirohi
+# Copyright © 2020-Present Vasundhara Sharma
+
+[global]
+frame_width = 0
+padding = 25
+horizontal_padding = 15
+font = "MesloLGS NF 10"
+frame_color = "#00000000"
+
+[urgency_low]
+# IMPORTANT: colors have to be defined in quotation marks.
+# Otherwise the "#" and following would be interpreted as a comment.
+foreground = "#FFB300"
+background = "#18191EB2"
+timeout = 8
+
+[urgency_normal]
+foreground = "#FFB300"
+background = "#18191EB2"
+timeout = 13
+
+[urgency_critical]
+foreground = "#FFB300"
+background = "#820000B2"
+timeout = 15
